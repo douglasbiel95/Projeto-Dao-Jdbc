@@ -13,5 +13,5 @@ public interface DaoDepartamento {
 	void deleteById(Integer id);				// Método que deleta um objeto do banco pelo id
 	Departamento findById(Integer id);			// Método que retorna um departamento pelo id
 	List<Departamento> findAll();				// Método que retorna todos os departamentos
-	List<Departamento> findByDepartment(Departamento departamento);
+	
 }
